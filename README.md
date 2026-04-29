@@ -29,7 +29,6 @@
 
 `venv-reaper` finds **every Python virtual environment on your machine**, tells you what's inside them, what's *actually used* by your code vs. what's just gathering dust, and lets you delete the cruft — all behind a Matrix-rain Streamlit UI **and** a fully themed terminal CLI.
 
-It started as a weekend tool for one user; it's becoming a privacy-preserving, on-device AI venv manager. See the full vision in [VENV_REAPER_AI_PRODUCT_PLAN.md](VENV_REAPER_AI_PRODUCT_PLAN.md).
 
 > **Why this exists:** every Python developer has 10–80 GB of forgotten venvs scattered across `~/Code`, `~/Downloads`, old hackathons, that 2-year-old Coursera tutorial. Reaper finds them all, scores them, and reaps them — safely.
 
