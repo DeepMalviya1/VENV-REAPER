@@ -42,7 +42,7 @@
 - 🟢 **SQLite-backed index** — single source of truth (WAL mode, foreign keys on) shared by the CLI, the Streamlit UI, and (soon) the daemon, REST API, and IDE plugins.
 - 🟢 **Reaper Crypt** — `kill` doesn't `rm -rf`. It atomically moves the venv into a quarantine with a 7-day TTL. `restore <id>` brings it back.
 - 🟢 **AI dependency analyzer** — AST-based import sweep + curated import→PyPI map + site-packages parser tells you exactly which installed packages your code never touches.
-- 🟢 **Cross-platform** — Linux, macOS, Windows. Platform-specific scan roots and skip lists are baked in.
+- 🟢 **Cross-platform** — Linux, macOS, Windows. Platform-specific scan roots and skip lists are baked in..
 
 ---
 
